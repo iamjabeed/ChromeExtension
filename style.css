@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  min-width: 400px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+  border: 1px solid #5f9341;
+}
+
+#input-btn {
+  /* display: block; */
+  padding: 6px 8px;
+  color: #ffffff;
+  background-color: #5f9341;
+  border: 1px solid #5f9341;
+  font-weight: bold;
+  font-size: 12px;
+  transition: all .5s ease-in-out;
+}
+
+#delete-btn {
+  padding: 6px 8px;
+  color: #5f9341;
+  background-color: #ffffff;
+  border: 1px solid #5f9341;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all .5s ease-in-out;
+}
+
+#input-btn:hover {
+  color: #5f9341;
+  background-color: #fff;
+}
+
+#delete-btn:hover {
+  color: #ffffff;
+  background-color: #5f9341;
+}
+
+/* STYLING UL LI A JS   */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #5f9341;
+}
